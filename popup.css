@@ -1,0 +1,33 @@
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.btn-directory {
+  background-color: rgb(0, 160, 21);
+  color: white;
+}
+.btn-ministry {
+  background-color: rgb(20, 0, 195);
+  color: white;
+}
+.btn-list {
+  white-space: nowrap;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  margin-bottom: 15px;
+}
+.logo {
+  text-align: center;
+}

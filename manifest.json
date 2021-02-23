@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bashkortostan app",
+  "description": "Bashkortostan app",
+  "version": "1.0",
+
+  "icons": {
+    "128": "dich.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "dich.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
