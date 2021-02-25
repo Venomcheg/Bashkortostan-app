@@ -9,12 +9,37 @@
   </head>
   <body>
     <h1 class="logo">Bashkortostan app</h1>
-    <button>Info</button>
+    <button class="btn-info"><img src="./icons/256px-Info_icon.svg.png"  width="30px" height="30px" alt=""></button>
     <div class="wrapper">
     <button class="btn btn-list">Копирование списка</button>
     <button class="btn btn-directory">Справочник</button>
     <button class="btn btn-ministry">Министерства</button>
     </div>
+    <div class="info">
+      <div class="info-wrapper">
+        <div class="info-list">
+          <p>
+            <button class="btn btn-list">Копирование списка</button> - Копирует список на старом РПГУ Башкирии
+          <ol class="list-items">
+            <li>Открываете нужный список</li>
+            <li>Нажимаете "Копирование списка"</li>
+            <li>Копируете результат из консоли</li>
+          </ol>
+          </p>
+        </div>
+        <div class="info-directory">
+          <p>
+            <button class="btn btn-directory">Справочник</button> - Добавляет в консоль разработчика скрипт для добавления справочника
+          </p>
+        </div>
+        <div class="info-ministry">
+          <p>
+            <button class="btn btn-ministry">Министерства</button> - На странице услуги вызывает скрипт копирования "Названия организации", "Идентификатора цели" и "код Реестра" в консоль разработчика
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="information.js"></script>
     <script type="text/javascript" src="popup.js"></script>
   </body>
 </html>

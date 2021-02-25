@@ -15,6 +15,7 @@ function makeDictionary() {
     file: "dictionary.js",
   })
 }
+
 document.querySelector(".btn.btn-ministry").addEventListener("click", min)
 document.querySelector(".btn.btn-list").addEventListener("click", list)
 document

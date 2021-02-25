@@ -3,10 +3,10 @@
 
   "name": "Bashkortostan app",
   "description": "Bashkortostan app",
-  "version": "1.0",
+  "version": "1.1",
 
   "icons": {
-    "128": "dich.png"
+    "128": "./icons/dich.png"
   },
 
   "permissions": [
@@ -14,7 +14,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "dich.png",
+    "default_icon": "./icons/dich.png",
     "default_popup": "popup.html"
   },
   "background": {
